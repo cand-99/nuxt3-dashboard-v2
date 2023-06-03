@@ -2,5 +2,9 @@
 export default defineNuxtConfig({
     modules: [
         '@nuxthq/ui'
-    ]
+    ],
+    ui: {
+        global: true,
+        icons: ['heroicons', 'simple-icons']
+    },
 })
